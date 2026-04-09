@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"strings"
 
 	"github.com/venwex/cli-project.git/pkg/utils"
 	"github.com/venwex/cli-project.git/processor"
@@ -43,10 +42,14 @@ func main() {
 	//fmt.Println(len(words))
 	//fmt.Println(words)
 
-	fmt.Println(words)
 	words = utils.Article(words)
+	//for i := 0; i < len(words); i++ {
+	//	fmt.Println(words[i], len(words[i]))
+	//}
 
-	result := utils.Format(strings.Join(words, " "))
+	//tmp := strings.Join(words, " ")
+	//fmt.Println(tmp)
+	result := utils.Format(utils.Join(words))
 	err = os.WriteFile(output, []byte(result), 0644)
 	if err != nil {
 		log.Fatal(err)
