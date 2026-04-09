@@ -121,3 +121,33 @@ func Article(words []string) []string {
 
 	return words
 }
+
+func Join(words []string) string {
+	var b strings.Builder
+	inQuote := false
+
+	for i, word := range words {
+
+		if word == "'" {
+			if !inQuote && i > 0 {
+				b.WriteByte(' ')
+			}
+
+			b.WriteString("'")
+			inQuote = !inQuote
+			continue
+		}
+
+		if i > 0 && words[i-1] != "'" {
+			b.WriteByte(' ')
+		}
+
+		if i > 0 && words[i-1] == "'" && !inQuote {
+			b.WriteByte(' ')
+		}
+
+		b.WriteString(word)
+	}
+
+	return b.String()
+}

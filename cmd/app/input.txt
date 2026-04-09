@@ -1,1 +1,18 @@
-it (cap) was the best of times, it was the worst of times (up) , it was the age of wisdom, it was the age of foolishness (cap, 6) , it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of darkness, it was the spring of hope, IT WAS THE (low, 3) winter of despair.
+welcome to a amazing world of programming .
+this project is a honest attempt to test a engine .
+
+10 (bin) people saw ff (hex) birds , and 111 (bin) cats .
+the number 1a (hex) is interesting .
+
+hello world (up) !
+this sentence should be loud (up, 3) .
+THIS SENTENCE SHOULD BE QUIET (low, 4) .
+these words must change (cap, 5) .
+
+he said ' hello there general kenobi ' and everyone laughed .
+this is ' a simple test ' for quotes .
+
+a apple a orange a banana a house .
+look ... what !? this is strange !
+
+sometimes people say ' go is awesome ' but others say ' i prefer rust ' .
